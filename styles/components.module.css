@@ -1,0 +1,66 @@
+.darkcard {
+    /* background-color: #0f172a; */
+    background-color: #292C34;
+}
+
+.whitecard {
+    background-color: #ffffff;
+}
+
+.card {
+    display: flex;
+    padding: 1rem;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 1rem;
+    line-height: 1.5;
+}
+.para {
+    color: #808080;
+    font-weight: 600;
+}
+.top {
+    display: flex;
+    padding: 1rem;
+    flex-direction: column;
+    gap: 0.7rem;
+    flex-basis: 60%;
+}
+
+.img {
+    width: 15rem;
+    border-radius: 1rem;
+}
+
+.bottom {
+    align-self: center;
+    flex-basis: 35%;
+}
+
+.reder {
+    display: flex;
+    gap: 0.3rem;
+}
+
+.title {
+    all: unset;
+    cursor: pointer;
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+
+.title:hover {
+    text-decoration: underline;
+    color: #0baaff;
+}
+
+@media only screen and (max-width: 700px) {
+    .card {
+        display: flex;
+        flex-direction: column;
+        padding: 0.5rem;
+    }
+    .img {
+        width: 100%;
+        border-radius: 1rem;
+    }
+}
