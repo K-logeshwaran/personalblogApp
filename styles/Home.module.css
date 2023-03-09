@@ -19,7 +19,8 @@
 .option {
   padding: 1rem;
   align-self: center;
-  width: 65%;
+  
+  margin: auto;
 }
 .option div {
   display: grid;
