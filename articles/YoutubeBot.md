@@ -2,7 +2,7 @@
 title: 'YouTube Bot'
 time: '8'
 uploaded_at: 'June 14 2012'
-cover_image: 'https://cdn.hashnode.com/res/hashnode/image/upload/v1669655158172/9xdgXYh_5.png'
+cover_image: 'https://raw.githubusercontent.com/K-logeshwaran/blogImages/main/youtubeBot.png'
 caption: 'What I did was, by using animechan-api ,I fetched random quotes from random anime ,then using bing_image_downloader ,I downloaded one image for one character'
 catagory : 'tech'
 meta_desc : 'Here we see how to create a bot with python'

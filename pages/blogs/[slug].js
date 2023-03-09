@@ -25,6 +25,7 @@ function Blogs({ post }) {
       <title>{post.frontMatter.title}</title>
       <meta charSet="UTF-8"/>
       <meta name="author" content="yourDevLoki"/>
+      <link rel="icon" href="/favicon.svg" type="image/svg+xml"/>
       <meta name="description" content={`${post.frontMatter?.meta_desc}`}/>
       <meta name="keywords" content={`${post.frontMatter?.meta_keywords}`}/>
       <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
